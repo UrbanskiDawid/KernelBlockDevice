@@ -1,8 +1,7 @@
 #define DATA_MAXLEN 254
 
-struct sDane {
+struct sData {
   char input[DATA_MAXLEN];
-  bool done;
 } DATA;
 
 static ssize_t devRead(struct file *f, char __user *buf, size_t len, loff_t *off)
