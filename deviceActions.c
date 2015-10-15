@@ -28,7 +28,6 @@ static ssize_t devWrite(struct file *f, const char *page,  size_t len, loff_t *o
   if(len >= DATA_MAXLEN) return -EFAULT;
   bytes=len;
 
-  printk(KERN_ALERT "in gdev_write\n");
   memset (DATA.input,0,sizeof(DATA.input));
   if(copy_from_user(DATA.input, page, bytes))  return bytes;
 
