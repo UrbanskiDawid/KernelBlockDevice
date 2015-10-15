@@ -6,6 +6,8 @@ divided into 3 parts:
 * deviceCreation.c - creating,destroying,setting permissions device
 * deviceActions.c- read write operations on the device
 
+source: Anil Kumar Pugalia - Device Drivers
+
 # How to use
 compile:
 ```
