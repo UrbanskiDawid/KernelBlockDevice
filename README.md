@@ -17,8 +17,8 @@ test module:
 $ make test
 ```
 this will:
-1. remove loaded module,
-2. insert module, 
-3. read data from device: cat /dev/dawid
-4. write data to decice: echo -n "test" > /dev/dawid
-5. read data fom device: cat /dev/dawid
+ 1. remove loaded module,
+ 2. insert module, 
+ 3. read data from device: cat /dev/dawid
+ 4. write data to decice: echo -n "test" > /dev/dawid
+ 5. read data fom device: cat /dev/dawid
